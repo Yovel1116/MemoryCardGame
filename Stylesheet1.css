@@ -41,20 +41,59 @@ form {
     
 }
 
+
+
+#qs1{
+    display: block;
+}
+#qs2{
+    display: block;
+}
+#qs3{
+    display: block;
+}
+#qs4{
+    display: block;
+}
+#qs5{
+    display: block;
+}
+#qs6{
+    display: block;
+}
+#qs7{
+    display: block;
+}
+#qs8{
+    display: block;
+}
+#qs9{
+    display: block;
+}
+#qs10{
+    display: block;
+}
+#qs11{
+    display: block;
+}
+#qs12{
+    display: block;
+}
+#qs13{
+    display: block;
+}
+#qs14{
+    display: block;
+}
+#qs15{
+    display: block;
+}
+#qs16{
+    display: block;
+}
+
+
 .images{
     width: 60px;
-    display: block;
+    display: none;
 }
-
-#card1{
-
-}
-#img1{
-
-}
-#qsmarks{
-    width: 60px;
-    display: block;
-}
-
-

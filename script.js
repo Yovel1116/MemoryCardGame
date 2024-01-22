@@ -1,5 +1,20 @@
-function flip(){
-    document.getElementById("images").style.display="block";
-    document.getElementById("qsmarks").style.display="none";
+
+function flip(img , qs){
+    let imgElmnt = document.getElementById(img);
+    let qsElmnt = document.getElementById(qs);
+    imgElmnt.style.display='block';
+    qsElmnt.style.display='none';
+
+    console.log(imgElmnt);
+    console.log(qsElmnt);
+
+
+
+   
+
+
+        
+
+
     return;
 }
