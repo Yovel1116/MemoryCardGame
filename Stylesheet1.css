@@ -26,14 +26,35 @@ form {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    padding: 15px;
     
     
 }
 
-#images{
-    width: 68px;
 
+.cards{
+    background-color:rgb(255, 255, 255);
+    padding: 15%;
+    border-radius: 5px;
+    box-shadow:1px 1px 18px rgb(183, 183, 183) ;
+    cursor: pointer;
+    
 }
 
+.images{
+    width: 60px;
+    display: block;
+}
+
+#card1{
+
+}
+#img1{
+
+}
+#qsmarks{
+    width: 60px;
+    display: block;
+}
 
 
