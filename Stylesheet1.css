@@ -17,11 +17,23 @@ body {
 
 form {
     width: 30%;
-    height: 60%;
+    height: 70%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 10px 10px 100px rgb(83, 154, 224);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
     
 }
+
+#images{
+    width: 68px;
+
+}
+
 
 
