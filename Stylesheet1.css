@@ -1,0 +1,27 @@
+html {
+    width: auto;
+    height: 100%;
+    
+}
+body {
+    background: linear-gradient(#68b0f9, #eaebf7);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 30%;
+    height: 60%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgb(83, 154, 224);
+    
+}
+
+
