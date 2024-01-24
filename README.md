@@ -31,12 +31,6 @@ Contributions are welcome! Please follow these steps:
 - Push your changes to your forked repository: `git push origin feature/your-feature`.
 - Submit a pull request.
 
-Please note that while you can push changes to your branches freely, 
-all new features will be reviewed by the project owner before being merged into the main branch.
-Thank you for your understanding and for contributing to the project!
-
-
-
 
 ## Thank You!
 I'm glad you're interested and hope you enjoy playing the game.
