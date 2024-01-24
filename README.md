@@ -1,5 +1,7 @@
 # Memory Card Game 🃏
+
 A classic memory card game implemented using HTML, CSS, and JavaScript.
+#### [Play now!](https://yovel1116.github.io/MemoryCardGame/)
 
 ## Features
 - Classic memory card game experience.
@@ -7,7 +9,7 @@ A classic memory card game implemented using HTML, CSS, and JavaScript.
   
 ## Installation
 - Clone the repository:
-git clone https://github.com/Yovel1116/MemoryCardGame.git
+[Git clone](https://github.com/Yovel1116/MemoryCardGame.git)
 - Navigate to the project directory:
 cd memorycardgame
 
