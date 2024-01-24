@@ -5,7 +5,7 @@ html {
 }
 body {
     background: linear-gradient(#68b0f9, #eaebf7);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     font-size: 20px;
     font-family: sans-serif;
     width: auto;
@@ -131,4 +131,48 @@ form {
 .images{
     width: 60px;
     display: none;
+}
+
+
+@media all and (orientation:portrait){
+    @media screen and (max-width: 1200px) {
+        form {
+          width: 90%;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    
+      @media screen and (max-width: 400px) {
+        form {
+          width: 90%;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    
+      @media screen and (max-height: 560px) {
+        form {
+          width: 30%;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+}
+@media all and (orientation:landscape){
+    html{
+        width: auto;
+        height: 100%;
+    }
+        body{
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form {
+          width: 70%;
+          height: 80%;
+        }   
+        
+         
+   
 }

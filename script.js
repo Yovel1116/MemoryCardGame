@@ -8,13 +8,12 @@ function flip(img , qs){
     console.log(imgElmnt);
     console.log(qsElmnt);
 
-
-
-   
-
-
-        
-
-
     return;
+}
+
+
+if (window.innerHeight > window.innerWidth) {
+    portrait = true;
+} else {
+    portrait = false;
 }
