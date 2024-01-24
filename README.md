@@ -13,7 +13,7 @@ A classic memory card game implemented using HTML, CSS, and JavaScript.
 - Navigate to the project directory:
 cd memorycardgame
 
-## Usage
+## Local Usage
 - Open the index.html file in your web browser.
 - Click on cards to reveal them.
 - Match pairs of cards with identical symbols.
