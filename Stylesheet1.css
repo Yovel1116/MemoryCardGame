@@ -156,23 +156,4 @@ form {
         }
       }
 }
-@media all and (orientation:landscape){
-    html{
-        width: auto;
-        height: 100%;
-    }
-        body{
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        form {
-          width: 70%;
-          height: 80%;
-        }   
-        
-         
-   
-}
+
