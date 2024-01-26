@@ -1,5 +1,17 @@
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+if (isMobile ) {//Change style due to screen size
+    let qsmark,img; 
+    for(let i=1;i<17;i++){
+        qsmark = document.getElementById("qs"+i.toString());
+        img = document.getElementById("img"+i.toString());
+        img.style.width = '120px'; 
+        qsmark.style.width='120px';
+        qsmark.style.height='120px';
+    }            
 
+
+    
+}
 
 let click=0,fliped=0; //Counter for match cards & clicks
 let img1,img2,qsmark1,qsmark2; // Variables for 2 diff cards (front&back sides)
@@ -116,14 +128,7 @@ function disclk(){//Function to remove click event from cards to avoid 3 click a
 
 
 
-if (isMobile ) {//Change style due to screen size
-    images.style.width = '120px'; 
-    for(let i=1;i<17;i++){
-        let qsmark = document.getElementById("qs"+i.toString());
-        qsmark.style.width='120px';
-        qsmark.style.height='120px';
-    }
-}
+
 
 
 
