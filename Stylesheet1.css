@@ -28,7 +28,6 @@ form {
     align-items: center;
     padding: 15px;
     
-    
 }
 
 
@@ -42,13 +41,10 @@ form {
 }
 
 
-
 #qs1{
     display: block;
     max-width: 60px;
     max-height: 60px;
-
-
 }
 #qs2{
     display: block;
@@ -157,6 +153,3 @@ form {
       }
 }
 
-.rotate{
-    transition: transform 0.5s ease-in;
-}
