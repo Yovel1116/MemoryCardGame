@@ -118,8 +118,7 @@ form {
     display: block;
 }
 #qs16{
-    max-width: 60px;
-    max-height: 60px;
+    
     display: block;
 }
 
@@ -130,26 +129,19 @@ form {
 }
 
 
-@media all and (orientation:portrait){
-    @media screen and (max-width: 1200px) {
-        form {
-          width: 90%;
-          grid-template-columns: repeat(4, 1fr);
-        }
-      }
-    
-      @media screen and (max-width: 400px) {
-        form {
-          width: 90%;
-          grid-template-columns: repeat(4, 1fr);
-        }
-      }
-    
-      @media screen and (max-height: 560px) {
-        form {
-          width: 30%;
-          grid-template-columns: repeat(4, 1fr);
-        }
-      }
+
+@media screen and (max-width: 1200px) {
+    form {
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    }
 }
+
+    
+      
+      
+    
+      
+      
+
 
