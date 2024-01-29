@@ -1,3 +1,7 @@
+
+let form = document.getElementById('form');
+form.style.display='none';//hide game until start click
+
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 if (isMobile ) {//Change style due to screen size
     let qsmark,img; 
@@ -71,6 +75,8 @@ function flip(img , qs,cardID){//This function "flip" cards, display image and h
         Card2IDs =[]; // reset 2 ID's  
     }
     if(fliped==16){//Winning game after 16 flip cards
+        clearInterval(interval);
+
         confetti({//start confetti
             spread: 180,
             particleCount: 200,
@@ -129,7 +135,64 @@ function disclk(){//Function to remove click event from cards to avoid 3 click a
 
 
 
+const btnStartElement = document.querySelector('[data-action="start"]');
+const btnStopElement = document.querySelector('[data-action="stop"]');
+const btnResetElement = document.querySelector('[data-action="reset"]');
+const minutes = document.querySelector('.minutes');
+const seconds = document.querySelector('.seconds');
+let timerTime = 0;
+let interval;
 
+function hidestart() {
+    btnStartElement.style.pointerEvents ='none';
+}
 
+const start = () => {
+  form.style.display='grid';
+  btnStartElement.style.opacity='0.5';
+  isRunning = true;
+  interval = setInterval(incrementTimer, 1000)
+}
+
+const stop = () => {
+    form.style.display='none';
+    btnStartElement.style.opacity='1';
+
+  isRunning = false;
+  clearInterval(interval);
+  btnStartElement.style.pointerEvents ='auto';
+
+}
+
+const reset = () => {
+  minutes.innerText = '00';
+  seconds.innerText = '00';
+}
+
+const pad = (number) => {
+  return (number < 10) ? '0' + number : number;
+}
+
+const incrementTimer = () => {
+  timerTime++;
+  
+  const numberMinutes = Math.floor(timerTime / 60);
+  const numberSeconds = timerTime % 60;
+  
+  minutes.innerText = pad(numberMinutes);
+  seconds.innerText = pad(numberSeconds);
+}
+
+btnStartElement.addEventListener('click', startTimer = () => {
+  start();
+});
+
+btnStopElement.addEventListener('click', stopTimer = () => {
+  stop();
+});
+
+btnResetElement.addEventListener('click', stopTimer = () => {
+  reset();
+});
 
 

@@ -10,7 +10,34 @@
 
 <body>
     
-    <form>
+
+    <div class="jumbotron text-center" id="timer">
+        <div class="timer">
+          <span class="minutes">
+            00
+          </span>
+          :
+          <span class="seconds">
+            00
+          </span>
+        </div>
+        <div class="time-buttons">
+          <button class="btn btn-lg btn-success" id="controlbtn" onclick="hidestart()"  data-action="start">
+            Start
+          </button>
+          <button class="btn btn-lg btn-danger" id="controlbtn" data-action="stop">
+            Stop
+          </button>
+          <button class="btn btn-lg btn-link btn-block" id="controlbtn" onclick="location.reload()"  >
+            Reset
+          </button>
+        </div>
+      </div>
+
+
+
+    <form id="form">
+
         <div class="cards" id="card1" onclick="flip('img1', 'qs1','card1')">
             <img class ="images" id="img1" src="">   
             <img class ="images" id="qs1" src="img/img-qs.jpg">
