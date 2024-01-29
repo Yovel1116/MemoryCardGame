@@ -12,7 +12,15 @@ if (isMobile ) {//Change style due to screen size
         qsmark.style.width='120px';
         qsmark.style.height='120px';
     }            
+   let timer =document.getElementById('timer').style.fontSize='80px';
+   let controlbtn1 =document.getElementById('controlbtn1').style.fontSize='50px';
+   let controlbtn2 =document.getElementById('controlbtn2').style.fontSize='50px';
+   let controlbtn3 =document.getElementById('controlbtn3').style.fontSize='50px';
 
+
+
+
+   
 
     
 }

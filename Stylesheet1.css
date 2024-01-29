@@ -21,14 +21,14 @@ body {
 #timer{
     display: grid;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
     font-size:32px;
     color: #FFF;
     text-align: center;
 
     
 }
-#controlbtn  {
+#controlbtn1  ,#controlbtn2 ,#controlbtn3  {
   border-radius: 5px;
   border: none;
   padding: 0.5rem 1.2rem;
@@ -150,12 +150,23 @@ form {
     }
 }
 
-#controlbtn:hover{
+#controlbtn1:hover{
     border-radius: 50px;
     background-color: #3f3f5b;
     transition: all 0.3s ease 0s;
     
-
+}
+#controlbtn2:hover{
+    border-radius: 50px;
+    background-color: #3f3f5b;
+    transition: all 0.3s ease 0s;
+    
+}
+#controlbtn3:hover{
+    border-radius: 50px;
+    background-color: #3f3f5b;
+    transition: all 0.3s ease 0s;
+    
 }
       
       
