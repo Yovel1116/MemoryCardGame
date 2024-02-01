@@ -3,6 +3,8 @@
 A classic memory card game implemented using HTML, CSS, and JavaScript.
 #### [Play now!](https://yovel1116.github.io/MemoryCardGame/)
 
+![](MCG.gif.gif)
+
 ## Features
 - Classic memory card game experience.
 - Responsive design for various screen sizes.
